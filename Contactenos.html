@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contactenos</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/casita.png" type="image/png">
+  </head>
+  <body>
+    <header>
+      <div class="nav-bg">
+        <button class="nav-boton" onclick="accion()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-align-left"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="4" y1="12" x2="14" y2="12" />
+            <line x1="4" y1="18" x2="18" y2="18" />
+          </svg>
+        </button>
+        <nav class="navegacion">
+          <a href="index.html" class="nav-enlace">Inicio</a>
+          <a href="Nosotros.html" class="nav-enlace">Nosotros</a>
+          <a href="Servicios.html" class="nav-enlace">Servicios</a>
+          <a href="Contactenos.html" class="nav-enlace">Contactenos</a>
+        </nav>
+      </div>
+    </header>
+    <div class="fondo">
+      <h2>Contactenos</h2>
+      <section class="form-register">
+        <h4>Formulario de compra</h4>
+        <input
+          class="controls"
+          type="text"
+          name="Nombre"
+          id="nombres"
+          placeholder="ingrese su nombre"
+          autofocus
+          required
+        />
+        <input
+          class="controls"
+          type="text"
+          name="Apellido"
+          id="Apellido"
+          placeholder="ingrese su apellido"
+        />
+        <input
+          class="controls"
+          type="text"
+          name="Correo"
+          id="correo"
+          placeholder="ingrese su correo"
+        />
+        <input
+          class="controls"
+          type="password"
+          name="Contraseña"
+          id="Contraseña"
+          placeholder="Ingrese su contraseña"
+        />
+
+        <p>Estoy de acuerdo con <a href="">Terminos y condiciones</a></p>
+
+        <input class="botons" type="submit" value="INGRESAR INFORMACION" />
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p>
+        <cite>Pagina Creada por :</cite> Kevin Gracia, Brayan Velez, Yelsin
+        Ortiz, Santiago Aguirre
+      </p>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
